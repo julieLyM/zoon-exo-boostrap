@@ -1,0 +1,17 @@
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 5px;
+}
+
+.container_main {
+  background-color: lightblue;
+}

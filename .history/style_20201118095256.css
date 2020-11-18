@@ -1,0 +1,9 @@
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+
+}
+
+.container_header {
+  background-color: red;
+}
+
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+.slogan {
+  font-style: italic;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 5px;
+}
+
+.container_main {
+  background-color: lightblue;
+}
+
+/* .bandeau {
+  width: 50vw;
+
+} */

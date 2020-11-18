@@ -1,0 +1,55 @@
+.body {
+  background-color: rgb(187, 209, 218);
+}
+
+.container_header {
+  background-color: white;
+  height: 15vh;
+}
+
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+.slogan {
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 5px;
+}
+
+.container_main {}
+
+.bandeau_title {
+  background-color: rgb(15, 144, 250);
+  color: white;
+}
+
+.bandeau_subTitle {
+  color: rgb(15, 144, 250);
+  font-weight: 900;
+}
+
+.bloc_card {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background-color: red;
+  height: 15vh;
+  width: 20vw;
+}
+
+footer {
+  background-color: white;
+  height: 15vh;
+}

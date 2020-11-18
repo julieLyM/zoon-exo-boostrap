@@ -1,0 +1,131 @@
+body {
+  background-color: rgb(187, 209, 218);
+}
+
+.container_header {
+  background-color: white;
+  height: 15vh;
+}
+
+
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+.lien_nav {
+  color: darkgray;
+  padding: 0 5px;
+
+}
+
+.lien_nav:hover {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.slogan {
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav {
+  height: 5vh;
+}
+
+.bandeau_title {
+  background-color: rgb(15, 144, 250);
+  color: white;
+  padding: 5px 0;
+}
+
+.bandeau_subTitle {
+  color: rgb(15, 144, 250);
+  font-weight: 900;
+}
+
+.bandeau {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.bloc_card {
+  margin: 0;
+}
+
+.card {
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+.card_title {
+  background-color: rgb(181, 229, 238);
+  color: grey;
+  padding: 10px;
+  text-align: center;
+}
+
+.lien {
+  color: darkgrey;
+  margin: 0;
+  padding: 0;
+}
+
+.lien:hover {
+  background-color: rgb(181, 229, 238);
+
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+  margin: 0;
+}
+
+.card_subtitle {
+  color: blue;
+}
+
+.card_img {
+  margin: 10px;
+}
+
+footer {
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+
+/* ***responsive*** */
+
+@media screen and (max-width: 566px) {
+
+  .container_header {
+    height: 20vh !important;
+    text-align: center;
+  }
+
+  footer {
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto;
+  }
+
+  .container_main {
+    height: 30vh !important;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+
+  .container_main {
+    height: 76vh !important;
+  }
+}

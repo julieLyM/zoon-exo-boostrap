@@ -1,0 +1,68 @@
+.body {
+  background-color: rgb(187, 209, 218);
+}
+
+.container_header {
+  background-color: white;
+  height: 15vh;
+}
+
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+.slogan {
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 5px;
+}
+
+.container_main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.bandeau_title {
+  background-color: rgb(15, 144, 250);
+  color: white;
+  min-width: 100%;
+}
+
+.bandeau_subTitle {
+  color: rgb(15, 144, 250);
+  font-weight: 900;
+}
+
+.bandeau_img {
+  min-width: 100%;
+
+
+}
+
+.bloc_card {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.card {
+  border-radius: 10%;
+  border: 1px solid gray;
+}
+
+footer {
+  background-color: white;
+  height: 10vh;
+}

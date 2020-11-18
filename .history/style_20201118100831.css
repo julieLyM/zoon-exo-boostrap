@@ -1,0 +1,40 @@
+body {
+  background-color: lightblue;
+
+}
+
+.container_header {
+  background-color: red;
+}
+
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+.slogan {
+  font-style: italic;
+  font-weight: 500;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 5px;
+}
+
+.container_main {
+  background-color: lightblue;
+}
+
+.bandeau_title {
+  background-color: aqua;
+  color: white;
+}
+
+.bandeau_subTitle {
+  color: aqua;
+}

@@ -1,0 +1,100 @@
+body {
+  background-color: rgb(187, 209, 218);
+}
+
+.container_header {
+  background-color: white;
+}
+
+.logo {
+  height: 10vh;
+  width: 20vw;
+}
+
+.lien_nav {
+  color: darkgray;
+}
+
+.lien_nav:hover {
+  background-color: lightblue;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.slogan {
+  font-style: italic;
+  font-weight: 700;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  margin: 0 5px;
+}
+
+/* .container_main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} */
+
+.bandeau_title {
+  background-color: rgb(15, 144, 250);
+  color: white;
+  min-width: 100%;
+}
+
+.bandeau_subTitle {
+  color: rgb(15, 144, 250);
+  font-weight: 900;
+}
+
+.bandeau {
+  width: 100%;
+  margin: 0 auto;
+  ;
+}
+
+.bloc_card {
+  display: flex;
+
+
+}
+
+.card {
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.card_title {
+  background-color: aqua;
+  color: grey;
+  padding: 10px;
+}
+
+.lien {
+  color: darkgrey;
+
+}
+
+.lien:hover {
+  background-color: aqua;
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none;
+}
+
+footer {
+  background-color: white;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
